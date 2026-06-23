@@ -1,9 +1,9 @@
 # ComfyUI-GGUF - KREA-2 GGUF Support
 GGUF Quantization support for native ComfyUI models
 
-This is currently very much WIP. These custom nodes provide support for model files stored in the GGUF format popularized by [llama.cpp](https://github.com/ggerganov/llama.cpp).
+This node set literally just adds the KREA-2 architecture to the unet loader so you can utilize my ggufs. ill keep it updated so i can push new models more frequently.
 
-While quantization wasn't feasible for regular UNET models (conv2d), transformer/DiT models such as flux seem less affected by quantization. This allows running it in much lower bits per weight variable bitrate quants on low-end GPUs. For further VRAM savings, a node to load a quantized version of the T5 text encoder is also included.
+
 
 ![Comfy_Flux1_dev_Q4_0_GGUF_1024](https://github.com/user-attachments/assets/70d16d97-c522-4ef4-9435-633f128644c8)
 
