@@ -1,4 +1,4 @@
-# ComfyUI-GGUF
+# ComfyUI-GGUF - KREA-2 GGUF Support
 GGUF Quantization support for native ComfyUI models
 
 This is currently very much WIP. These custom nodes provide support for model files stored in the GGUF format popularized by [llama.cpp](https://github.com/ggerganov/llama.cpp).
