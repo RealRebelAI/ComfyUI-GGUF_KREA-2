@@ -20,7 +20,7 @@ To install the custom node on a standalone ComfyUI release, open a CMD inside th
 
 ```
 git clone https://github.com/city96/ComfyUI-GGUF ComfyUI/custom_nodes/ComfyUI-GGUF_KREA-2.git
-.\python_embeded\python.exe -s -m pip install -r .\ComfyUI\custom_nodes\ComfyUI-GGUF_KREA-2\requirements.txt
+.\python_embeded\python.exe -s -m pip install -r .\ComfyUI\custom_nodes\ComfyUI-GGUF_KREA-2.git\requirements.txt
 ```
 
 
